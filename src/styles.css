@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dataContainer {
+  background-color: rgb(123, 157, 187);
+  height: 180px;
+  width: 180px;
+  margin: 4px;
+  border-radius: 6px;
+  /* overflow: scroll; */
+  padding: 10px;
+}
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.title {
+  font-size: 16px;
+  text-align: left;
+  margin-left: 5px;
+}
+.links {
+  text-decoration: none;
+  color: rgb(126, 62, 62);
+  font-weight: 600;
+  font-size: 14px;
+}
+.image {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.image:hover {
+  height: 320px;
+  width: 320px;
+}
+.button {
+  background-color: rgb(186, 224, 212);
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 3px;
+}
